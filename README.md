@@ -32,7 +32,7 @@ bash
   
 
 #  Node2 (Creating node2 using genesis file)
- /fufi_blockchain/node$ geth --datadir ./data init ../genesis.json
+ /fufi_blockchain/node$ geth --datadir ./data init ../futurefinance.json
 
  output : 
  INFO [09-06|16:08:24.597] Maximum peer count                       ETH=50 LES=0 total=50
