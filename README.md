@@ -31,7 +31,7 @@ bash
   
   
 
-#  Node2 (Creating node1 using genesis file)
+#  Node2 (Creating node2 using genesis file)
  /fufi_blockchain/node$ geth --datadir ./data init ../genesis.json
 
  output : 
