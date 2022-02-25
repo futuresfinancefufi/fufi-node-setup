@@ -51,7 +51,8 @@ bash
 # create Node script.sh file 
 /fufi_blockchain/node$ vim pm2.node.sh
 
-geth --networkid 60457 --datadir "./data" --bootnodes enode://b4627a88f618ad66944c5c250ef04046b71ee79d6d134a3d138fcc761653fd37eaf3f686f562463f3806b0298812986a2b83f0d5e014f5179de514df516b8bf1@159.89.161.128:0?discport=30301 --port 30311 --ipcdisable --syncmode full --http.api 'eth,web3,personal' --http --allow-insecure-unlock --http.corsdomain "*" --http.port 8546 --unlock 0x1B741E7043fa4FE5c78e5e7A53ACaeF453Df7bE5 --password ./data/password.txt  console
+geth --networkid 60457 --datadir "./data" --bootnodes enode://b4627a88f618ad66944c5c250ef04046b71ee79d6d134a3d138fcc761653fd37eaf3f686f562463f3806b0298812986a2b83f0d5e014f5179de514df516b8bf1@159.89.161.128:0?discport=30301 --port 30311 --ipcdisable --syncmode full --http.api 'eth,web3,personal' --http --allow-insecure-unlock --http.corsdomain "*" --http.port 8546 --unlock 0x1da73173273b4AaF99952964FE7474deE2C30345 --password ./data/password.txt  console
+
 
 
 # Run Node script.sh file
