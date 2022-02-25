@@ -61,6 +61,3 @@ geth --networkid 60457 --datadir "./data" --bootnodes enode://b4627a88f618ad6694
 # Show Logs Node script.sh file
 /fufi_blockchain/node$ pm2 logs pm2.node.sh
 
-# Add Peer
-/fufi_blockchain/node$ geth attach https://fufi.finance/rpc
-> admin.addPeerenode("paste your full node enode here")
